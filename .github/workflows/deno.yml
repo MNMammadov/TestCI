@@ -22,13 +22,13 @@ jobs:
           node-version: 14.x
                    
       - name: Install dependencies
-        working-directory: ./my-app  
+        working-directory: ./myapp  
         run: yarn
         
       - name: Run tests
-        working-directory: ./my-app  
+        working-directory: ./myapp  
         run: yarn run test
         
       - name: Create production build
-        working-directory: ./my-app  
+        working-directory: ./myapp  
         run: yarn run build
