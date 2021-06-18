@@ -9,3 +9,12 @@ html {
 h3 {
     font-size: 40px
 }
+
+h1 {
+    font-size: 64px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: larger;
+}
